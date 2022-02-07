@@ -1,0 +1,20 @@
+0	1	mikroc8051.exe -MSF -DBG -pAT89S52 -ES -DL -O11111114 -fo11.0592 -N"C:\Users\jimmy\Google Drive\PROJECTS\CUSAT\cusat\blink.mcp51" -SP"C:\Program Files\Mikroelektronika\mikroC PRO for 8051\defs\" -SP"C:\Users\jimmy\Google Drive\PROJECTS\CUSAT\cusat\" -SP"C:\Users\jimmy\Google Drive\library\8051\cusat\" -SP"C:\Users\jimmy\Google Drive\library\8051\RFID - Copy\" -SP"C:\Users\Public\Documents\Mikroelektronika\mikroC PRO for 8051\defs\" -SP"C:\Program Files\Mikroelektronika\mikroBasic PRO for 8051\defs\" -SP"C:\Program Files\Mikroelektronika\mikroBasic PRO for 8051\Uses\ATMEL\" -SP"C:\Users\jimmy\Google Drive\library\8051\RFID\" -SP"C:\Users\jimmy\Google Drive\library\8051\UART\" -SP"C:\Users\jimmy\Google Drive\library\8051\SWITCH\" -SP"C:\Users\jimmy\Google Drive\library\8051\blink\" -SP"C:\Users\Public\Documents\Mikroelektronika\mikroC PRO for 8051\Uses\ATMEL\" -SP"D:\GOOGLE DRIVE\library\8051\blink\" -SP"D:\GOOGLE DRIVE\PROJECTS\library\8051\" -SP"C:\Program Files\Mikroelektronika\mikroC PRO for 8051\Uses\ATMEL\" "blink.c" "__Lib_Math.mcl" "__Lib_MathDouble.mcl" "__Lib_System.mcl" "__Lib_Delays.mcl" "__Lib_UART_Timer1.mcl" "__Lib_CType.mcl" "__Lib_CString.mcl" "__Lib_CStdlib.mcl" "__Lib_CMath.mcl" "__Lib_Conversions.mcl" "__Lib_Sprintf.mcl" "__Lib_PrintOut.mcl" "__Lib_Sprinti.mcl" "__Lib_Sprintl.mcl" "__Lib_Time.mcl" "__Lib_Trigonometry.mcl" "__Lib_Button.mcl" "__Lib_Keypad4x4.mcl" "__Lib_Manchester.mcl" "__Lib_OneWire.mcl" "__Lib_PS2.mcl" "__Lib_Sound.mcl" "__Lib_SoftI2C.mcl" "__Lib_SoftSPI.mcl" "__Lib_SoftUART.mcl" "__Lib_GlcdFonts.mcl" "__Lib_Glcd.mcl" "__Lib_LcdConsts.mcl" "__Lib_Lcd.mcl" "__Lib_RS485.mcl" "__Lib_T6963C.mcl"	 
+warning: 0	1501	Specified search path does not exist: 'C:\Users\jimmy\Google Drive\library\8051\cusat'	 
+warning: 0	1501	Specified search path does not exist: 'C:\Users\jimmy\Google Drive\library\8051\RFID - Copy'	 
+warning: 0	1501	Specified search path does not exist: 'C:\Users\Public\Documents\Mikroelektronika\mikroC PRO for 8051\defs'	 
+warning: 0	1501	Specified search path does not exist: 'C:\Program Files\Mikroelektronika\mikroBasic PRO for 8051\defs'	 
+warning: 0	1501	Specified search path does not exist: 'C:\Program Files\Mikroelektronika\mikroBasic PRO for 8051\Uses\ATMEL'	 
+warning: 0	1501	Specified search path does not exist: 'C:\Users\Public\Documents\Mikroelektronika\mikroC PRO for 8051\Uses\ATMEL'	 
+warning: 0	1501	Specified search path does not exist: 'D:\GOOGLE DRIVE\library\8051\blink'	 
+warning: 0	1501	Specified search path does not exist: 'D:\GOOGLE DRIVE\PROJECTS\library\8051'	 
+diagnostics: 0	122	Compilation Started	blink.c
+diagnostics: 208	123	Compiled Successfully	blink.c
+diagnostics: 0	127	All files Compiled in 94 ms	 
+hint: 0	1144	Used BDATA RAM (bytes): 2 (12%) Free BDATA RAM (bytes): 14 (88%)	Used BDATA RAM (bytes): 2 (12%) Free BDATA RAM (bytes): 14 (88%)
+hint: 0	1144	Used DATA RAM (bytes): 99 (95%) Free DATA RAM (bytes): 5 (5%)	Used DATA RAM (bytes): 99 (95%) Free DATA RAM (bytes): 5 (5%)
+hint: 0	1144	Used IDATA RAM (bytes): 0 (1%) Free IDATA RAM (bytes): 128 (99%)	Used IDATA RAM (bytes): 0 (1%) Free IDATA RAM (bytes): 128 (99%)
+hint: 0	1144	Used ROM (bytes): 1864 (23%)  Free ROM (bytes): 6328 (77%)	Used ROM (bytes): 1864 (23%)  Free ROM (bytes): 6328 (77%)
+diagnostics: 0	125	Project Linked Successfully	blink.mcp51
+diagnostics: 0	128	Linked in 93 ms	 
+diagnostics: 0	129	Project 'blink.mcp51' completed: 234 ms	 
+diagnostics: 0	103	Finished successfully: 30 Nov 2015, 15:04:36	blink.mcp51

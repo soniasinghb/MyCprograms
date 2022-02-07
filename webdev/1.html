@@ -1,0 +1,56 @@
+<html>
+    <head>
+        <title>My first webpage</title>
+    </head>
+    <body>
+        <h1> Registration form</h1>
+        <!-- division tag -->
+        <div id="Reg-form">             
+            <form>
+                <label for="fname">First Name </label>
+                <input type="text" id="fname" placeholder="Arya" required>
+                
+                <label for="lname">Last Name </label>
+                <input type="text" id="lname" placeholder="Singh" required>
+
+            <div>
+                <label for="male">male</label>
+                <input type="radio" name="gender" required value="choice1">
+                <label for="female">female</label>
+                <input type="radio" name="gender" required value="choice2">
+                <label for="other">others</label>
+                <input type="radio" name="gender" required value="choice3">
+            </div>
+            <div>
+                <label for="email">Email id</label>
+                <input type="email" name="email" placeholder="xyz@abc.com">
+                <label for="password">Password</label>
+                <input type="password" name="password" placeholder="pwd">
+
+            </div>
+            <div>
+                <label for="month">Month</label>
+                <select name="Month">
+                    <option value="0" selected disabled>Month</option>
+                    <option value="jan">January</option>
+                    <option value="feb">February</option>
+                    <option value="mar">March</option>
+                    <option value="apr">April</option>
+                    <option value="may">May</option>
+                    <option value="jul">July</option>
+                </select>   
+            </div>
+            <div>
+                <label for="agree">I agree to all t&cs</label>
+                <input type="checkbox" name="agree">
+
+                <button type="submit">SUBMIT</button>
+
+            </div>
+            </form>
+        </div>
+        <script src="1.js">
+
+        </script>
+    </body>
+</html>
